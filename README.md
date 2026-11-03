@@ -35,3 +35,10 @@ npm run typecheck
 npm run lint
 npm run build
 ```
+
+
+## Console shell prototype
+
+A responsive shell prototype is available at `/console-preview`. It demonstrates the proposed navigation and module layout using placeholder states only. It is not an authenticated console and does not connect to live services or enforce permissions.
+
+The navigation registry is maintained in `src/lib/console-navigation.ts`. The shell and module placeholders are in `src/components/console-shell-preview.tsx`.
