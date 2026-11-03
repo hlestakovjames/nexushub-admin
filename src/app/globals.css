@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+  --ink: #101d36;
+  --muted: #65728a;
+  --line: #e5eaf1;
+  --navy: #142746;
+  --blue: #315f9e;
+  --canvas: #f5f7fa;
+}
+
+* { box-sizing: border-box; }
+html { min-height: 100%; background: var(--canvas); }
+body { margin: 0; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { font: inherit; }
+::selection { background: #dbeafe; color: #142746; }
+
+.console-grid {
+  background-image: linear-gradient(to right, rgba(20,39,70,.035) 1px, transparent 1px), linear-gradient(to bottom, rgba(20,39,70,.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
