@@ -42,3 +42,11 @@ npm run build
 A responsive shell prototype is available at `/console-preview`. It demonstrates the proposed navigation and module layout using placeholder states only. It is not an authenticated console and does not connect to live services or enforce permissions.
 
 The navigation registry is maintained in `src/lib/console-navigation.ts`. The shell and module placeholders are in `src/components/console-shell-preview.tsx`.
+
+
+## Role-specific experience prototypes
+
+- `/console-preview` — responsive console shell and navigation prototype.
+- `/platform-owner-preview` — Platform Owner / Highest Administrator dashboard prototype.
+
+Both routes are demonstration interfaces only. Neither authenticates users, grants privileges, or reads live platform data. See `docs/architecture/PLATFORM-OWNER-DASHBOARD.md` for the role-specific boundary and implementation requirements.
